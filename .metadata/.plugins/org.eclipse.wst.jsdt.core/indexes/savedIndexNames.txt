@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\JavaTraining\TRAINING_JSP_SERVLET_WS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1428973173.index
+3666195879.index
+1730602558.index
+1214992142.index
+3981045151.index
+1078644939.index
+2399098195.index
