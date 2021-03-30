@@ -1,0 +1,13 @@
+127.0.0.1 - - [30/Mar/2021:13:25:45 +0630] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:26:04 +0630] "GET /JSP_JSTL/scriptlet-demo.jsp HTTP/1.1" 200 1071
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:26:22 +0630] "GET /JSP_JSTL/scriptlet-demo.jsp HTTP/1.1" 200 1471
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:38:37 +0630] "GET /JSP_JSTL/declaration-demo.jsp HTTP/1.1" 200 154
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:45:10 +0630] "GET /JSP_JSTL/declaration-demo.jsp HTTP/1.1" 200 177
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:48:39 +0630] "GET /JSP_JSTL/declaration-demo.jsp HTTP/1.1" 200 180
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:56:55 +0630] "GET /JSP_JSTL/calculator.jsp HTTP/1.1" 200 188
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:57:12 +0630] "GET /JSP_JSTL/calculator.jsp HTTP/1.1" 200 189
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:13:58:11 +0630] "GET /JSP_JSTL/calculator.jsp HTTP/1.1" 200 349
+127.0.0.1 - - [30/Mar/2021:14:32:10 +0630] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:14:32:10 +0630] "GET /JSP_JSTL/WEB-INF/get-from-java-class.jsp HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:14:33:19 +0630] "GET /JSP_JSTL/get-from-java-class.jsp HTTP/1.1" 200 187
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:14:56:50 +0630] "GET /JSP_JSTL/request-demo.jsp HTTP/1.1" 200 398

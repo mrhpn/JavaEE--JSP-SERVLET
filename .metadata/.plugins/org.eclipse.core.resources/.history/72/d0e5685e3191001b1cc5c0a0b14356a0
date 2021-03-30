@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Request Demo</title>
+</head>
+<body>
+
+	User Context Path: <b> <%= request.getContextPath() %> </b>
+	<br>
+	User Locale: <b> <%= request.getLocale() %> </b>
+	<br>
+	User Port: <b> <%= request.getContextPath() %> </b>
+	
+</body>
+</html>

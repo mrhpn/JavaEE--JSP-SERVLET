@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
 C:\JavaTraining\TRAINING_JSP_SERVLET_WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1078644939.index
 \JSP_JSTL\src
+C:\JavaTraining\TRAINING_JSP_SERVLET_WS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1511395530.index
+\JSP_JSTL\src

@@ -1,0 +1,8 @@
+JSP built-in objects
+-----
+
+1. Request     - contains Http headers and form data
+2. Response    - provides Http support for sending response
+3. Out         - Jsp writer for including content in Html page
+4. Session     - Unique session for each client of web app
+5. Application - to brodcast the information for all users of the application

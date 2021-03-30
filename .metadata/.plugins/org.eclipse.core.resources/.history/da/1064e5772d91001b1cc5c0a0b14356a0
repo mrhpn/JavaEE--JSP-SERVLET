@@ -1,0 +1,7 @@
+package com.test;
+
+public class TheSmallest {
+	public static <T> T getSmallestNumber() {
+		return null;
+	}
+}
