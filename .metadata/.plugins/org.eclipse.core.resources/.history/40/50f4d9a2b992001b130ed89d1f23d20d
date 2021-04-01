@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Employee Form</h2>
+	
+	<form action="read-employee-form.jsp" method="GET">
+		<label>Employee Name</label>
+		<input type="text" name="employeeName" placeholder="Enter your name" required="required" />
+		<br>
+		
+		<label>Employee Email</label>
+		<input type="email" name="employeeEmail" placeholder="Enter your email" required="required" />
+		<br>
+		
+		<label>Employee Password</label>
+		<input type="password" name="employeePassword" placeholder="Enter your password" required="required" />
+		<br>
+		
+		<input type="submit" value="Submit" />
+	</form>
+	
+</body>
+</html>

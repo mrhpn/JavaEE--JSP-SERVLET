@@ -11,3 +11,5 @@
 0:0:0:0:0:0:0:1 - - [30/Mar/2021:14:32:10 +0630] "GET /JSP_JSTL/WEB-INF/get-from-java-class.jsp HTTP/1.1" 404 682
 0:0:0:0:0:0:0:1 - - [30/Mar/2021:14:33:19 +0630] "GET /JSP_JSTL/get-from-java-class.jsp HTTP/1.1" 200 187
 0:0:0:0:0:0:0:1 - - [30/Mar/2021:14:56:50 +0630] "GET /JSP_JSTL/request-demo.jsp HTTP/1.1" 200 398
+127.0.0.1 - - [30/Mar/2021:14:57:10 +0630] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Mar/2021:14:57:12 +0630] "GET /JSP_JSTL/request-demo.jsp HTTP/1.1" 200 398

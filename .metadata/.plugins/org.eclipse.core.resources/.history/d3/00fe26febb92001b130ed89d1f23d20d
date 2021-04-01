@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Employee Form Data</h1>
+	
+	Employee Name: <p>${param.employeeName} </p> 
+	<hr>
+	
+	Employee Email: 
+	<% 
+		
+		String password = request.getParameter("employeePassword");
+		if (password.length() < 8) out.print("Password is too short.");
+		else out.print("Password is good.");
+		
+	%>
+	<hr>
+	
+	Employee Password: <p>${param.employeePassword} </p> 
+	<hr>
+</body>
+</html>
