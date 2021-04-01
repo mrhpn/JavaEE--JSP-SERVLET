@@ -25,3 +25,15 @@
 0:0:0:0:0:0:0:1 - - [01/Apr/2021:14:21:56 +0630] "GET /JSP_JSTL/read-employee-form.jsp?employeeName=dfgdfgq&employeeEmail=pleasewritemeasong77%40gmail.com&employeePassword=dklfjsldjfljsfjsdlfj&employeeRole=admin&employeeGender=Male&employeeExpectedFields=Java&employeeExpectedFields=C%23 HTTP/1.1" 200 546
 0:0:0:0:0:0:0:1 - - [01/Apr/2021:14:22:00 +0630] "GET /JSP_JSTL/read-employee-form.jsp?employeeName=dfgdfgq&employeeEmail=pleasewritemeasong77%40gmail.com&employeePassword=dklfjsldjfljsfjsdlfj&employeeRole=admin&employeeGender=Male&employeeExpectedFields=Java&employeeExpectedFields=C%23 HTTP/1.1" 200 546
 0:0:0:0:0:0:0:1 - - [01/Apr/2021:14:22:01 +0630] "GET /JSP_JSTL/read-employee-form.jsp?employeeName=dfgdfgq&employeeEmail=pleasewritemeasong77%40gmail.com&employeePassword=dklfjsldjfljsfjsdlfj&employeeRole=admin&employeeGender=Male&employeeExpectedFields=Java&employeeExpectedFields=C%23 HTTP/1.1" 200 546
+127.0.0.1 - - [01/Apr/2021:14:26:50 +0630] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:14:27:09 +0630] "GET /JSP_JSTL/read-employee-form.jsp?employeeName=dfgdfgq&employeeEmail=pleasewritemeasong77%40gmail.com&employeePassword=dklfjsldjfljsfjsdlfj&employeeRole=admin&employeeGender=Male&employeeExpectedFields=Java&employeeExpectedFields=C%23 HTTP/1.1" 200 546
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:14:27:14 +0630] "GET /JSP_JSTL/employee-form.html HTTP/1.1" 200 1492
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:14:27:30 +0630] "GET /JSP_JSTL/read-employee-form.jsp?employeeName=ksdjfdk&employeeEmail=pleasewritemeasong77%40gmail.com&employeePassword=dfsdfsfsdfsd&employeeRole=manager&employeeGender=Male&employeeExpectedFields=Java&employeeExpectedFields=C%23 HTTP/1.1" 200 540
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:11:38 +0630] "GET /JSP_JSTL/cv-form.html HTTP/1.1" 200 4487
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:11:44 +0630] "GET /JSP_JSTL/cv-form.html HTTP/1.1" 200 4487
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:32:55 +0630] "GET /JSP_JSTL/cv-form.html HTTP/1.1" 200 4681
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:33:02 +0630] "GET /JSP_JSTL/cv-form.jsp?name=aa&email=&phone=&address=&division=&university=utycc&areaOfStudy=Accounting&degreeLevel=be&country=Myanmar&otherSkillsText=&aboutYou= HTTP/1.1" 404 741
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:34:42 +0630] "GET /JSP_JSTL/cv-form.jsp?name=aa&email=&phone=&address=&division=&university=utycc&areaOfStudy=Accounting&degreeLevel=be&country=Myanmar&otherSkillsText=&aboutYou= HTTP/1.1" 404 741
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:39:19 +0630] "GET /JSP_JSTL/cv-form.html HTTP/1.1" 200 4686
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:39:20 +0630] "GET /JSP_JSTL/cv-form.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Apr/2021:17:39:24 +0630] "GET /JSP_JSTL/read-cv-form.jsp?name=adfd&email=&phone=&address=&division=&university=utycc&areaOfStudy=Accounting&degreeLevel=be&country=Myanmar&otherSkillsText=&aboutYou= HTTP/1.1" 404 746

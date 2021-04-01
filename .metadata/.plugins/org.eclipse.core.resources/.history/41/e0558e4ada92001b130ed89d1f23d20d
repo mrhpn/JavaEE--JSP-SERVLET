@@ -1,0 +1,147 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<table style="width: 100%">
+			<tr>
+				<th></th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>
+					<h4>Personal Information:</h4>
+				</td>
+			</tr>
+			<tr>
+				<td>Name:</td>
+				<td>${param.name}</td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td>${param.email}</td>
+			</tr>
+			<tr>
+				<td>Phone number:</td>
+				<td>${param.phone}</td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td>${param.address}</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Educational Information:</h4>
+				</td>
+			</tr>
+			<tr>
+				<td>Location (or division of University)</td>
+				<td>${param.division}</td>
+			</tr>
+			<tr>
+				<td>University:</td>
+				<td><select name="university" required="required"
+					style="width: 177px">
+						<option disabled="disabled">Choose University</option>
+						<option value="utycc">UT-YCC</option>
+						<option value="ucsy">UCSY</option>
+						<option value="ucsm">UCSM</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Area of Study:</td>
+				<td><select name="areaOfStudy" required="required"
+					style="width: 177px">
+						<option disabled="disabled">Choose Area of Study</option>
+						<option value="Accounting">Accounting</option>
+						<option value="Art">Art</option>
+						<option value="Information Technology">Information
+							Technology</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Degree Level</td>
+				<td><select name="degreeLevel" required="required"
+					style="width: 177px">
+						<option disabled="disabled">Choose Degree Level</option>
+						<option value="be">Bachelor Degree</option>
+						<option value="me">Master Degree</option>
+						<option value="phd">PHD</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td><select name="country" required="required"
+					style="width: 177px">
+						<option disabled="disabled">Choose Country</option>
+						<option value="Myanmar">Myanmar</option>
+						<option value="UK">UK</option>
+						<option value="USA">USA</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Skills:</h4>
+				</td>
+			</tr>
+			<tr>
+				<td>Programming Languages:</td>
+				<td><input type="checkbox" name="skillLanguages" value="HTML" />HTML
+					<input type="checkbox" name="skillLanguages" value="CSS" />CSS <input
+					type="checkbox" name="skillLanguages" value="JavaScript" />JavaScript
+					<br> <input type="checkbox" name="skillLanguages" value="Java" />Java
+					<input type="checkbox" name="skillLanguages" value="C#" />C# <input
+					type="checkbox" name="skillLanguages" value="TypeScript" />TypeScript
+					<br> <input type="checkbox" name="skillLanguages"
+					value="React" />React <input type="checkbox" name="skillLanguages"
+					value="React Native" />React Native <br></td>
+			</tr>
+			<tr>
+				<td>Databases:</td>
+				<td><input type="checkbox" name="skillDatabases" value="MySQL" />MySQL
+					<input type="checkbox" name="skillDatabases" value="Oracle" />Oracle
+					<input type="checkbox" name="skillDatabases" value="NoSQL" />NoSQL
+					<br> <input type="checkbox" name="skillDatabases"
+					value="MSSQL" />MSSQL</td>
+			</tr>
+			<tr>
+				<td>Others:</td>
+				<td><input type="checkbox" name="skillOthers" value="Linux" />Linux
+					<input type="checkbox" name="skillOthers" value="UI" />UI <input
+					type="checkbox" name="skillOthers" value="UX" />UX <br> <input
+					type="checkbox" name="skillOthers" value="UWP" />UWP</td>
+			</tr>
+			<tr>
+				<td>
+					<h4>Other Skills:</h4>
+				</td>
+			</tr>
+			<tr>
+				<td>Speaking Languages:</td>
+				<td><input type="checkbox" name="skillLanguages"
+					value="English" />English <input type="checkbox"
+					name="skillLanguages" value="Japanese" />Japanese <input
+					type="checkbox" name="skillLanguages" value="Spain" />Spain <br>
+					<input type="checkbox" name="skillLanguages" value="Java" />Frence
+				</td>
+			</tr>
+			<tr>
+				<td>Others:</td>
+				<td><textarea rows="4" cols="22" name="otherSkillsText"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>About You:</td>
+				<td><textarea rows="4" cols="22" name="aboutYou"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Submit My Information">
+			</tr>
+		</table>
+</body>
+</html>
